@@ -12,8 +12,6 @@ rrkminputfile=input.rrkm
 
 # Compile the heavy-lifting RRKM script
 
-module load toolchain/intel/2018.5.274
-
 gfortran rrkm.f -o rrkm.o
 
 ################################################################################################
