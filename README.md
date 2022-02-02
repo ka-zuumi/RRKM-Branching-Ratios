@@ -109,7 +109,7 @@ C5H5
 └── geometries/
 ```
 
-For this code, information must be stored as follows: the energies in `PES.dat`, the frequencies and zero-point energies (ZPEs) in `geometries-frequenciesANDzpe.txt`, and a list of XYZ files with optimized geometries of each intermediate and transition state in `geometries/`. After specifying the total energy and rotational excitation of the system in the script `getRateConstantMatrix.sh`, it may be executed to produce the following ouptut like so:
+For this code, information must be stored as follows: the energies in `PES.dat`, the frequencies and zero-point energies (ZPEs) in `geometries-frequenciesANDzpe.txt`, and a list of XYZ files with optimized geometries of each intermediate and transition state in `geometries/`. After specifying the total energy and rotational excitation of the system in the script `getRateConstantMatrix.sh`, it may be executed to produce the following output like so:
 
 ```bash
 ./getRateConstantMatrix.sh > rateConstantMatrix.dat
