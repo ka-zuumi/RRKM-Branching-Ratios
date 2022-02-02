@@ -1,0 +1,19 @@
+comment line 1 - Frequencies must be in cm^-1, Temperatures must be in Kelvin
+comment line 2 - Energies are relative to the intermediate and must be in kcal/mol
+lowestTotalEnergy,totalEnergyIncrement,numberOfEnergyIncrements,
+0,
+-1,0,1,rotationalTemperature,
+0,
+-1,
+-1,
+1.0,
+intermediateNumberOfNormalModes,0,
+intermediateFrequencies,
+intermediateMomentOfInertiaTensor,
+0,
+transitionStateEnergyWithZPE,
+transitionStateNumberOfNormalModes,0,
+transitionStateFrequencies,
+transitionStateMomentOfInertiaTensor,
+0,
+
