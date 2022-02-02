@@ -1,0 +1,70 @@
+# Energies are given in kJ/mol and are with respect to the reactants
+# Energies have ZPE included
+# Molecule Energy
+      C2H2    0
+      C4H4    0
+       CH3    0
+        CH    0
+         H    0
+         r    0
+        i3 -343
+  ts_i3_i4 -270
+  ts_i3_p7 -143
+  ts_i3_p8 -151
+        i4 -488
+  ts_i4_i9 -440
+        i9 -487
+  ts_i9_i5 -198
+ ts_i9_i10 -208
+  ts_i9_p1 -209
+        i5 -362
+       i10 -382
+  ts_i5_i8 -163
+  ts_i5_p2 -195
+  ts_i5_p1 -204
+        i8 -352
+ts_i10_i14 -296
+ts_i10_i11 -199
+ ts_i10_p1 -214
+ ts_i10_p3 -225
+       i14 -296
+       i11 -411
+ts_i14_i15 -268
+       i15 -363
+  ts_i8_p2 -189
+ ts_i15_p4 -226
+ ts_i11_p3 -234
+ ts_i11_p4 -246
+        p1 -230
+        p2 -218
+        p3 -254
+        p4 -280
+        p7 -143
+        p8 -151
+        i2 -368
+ ts_i2_i40 -116
+ ts_i2_i41 -100
+ ts_i2_i42  -66
+  ts_i2_p9 -116
+       i40 -298
+       i41 -281
+       i42 -292
+ts_i40_i17 -267
+       i17 -474
+ts_i41_i12 -258
+       i12 -376
+ts_i42_i20 -256
+       i20 -362
+ts_i17_i19 -178
+ts_i17_i13 -204
+ ts_i17_p6 -199
+       i19 -403
+       i13 -426
+ts_i12_i13 -201
+ ts_i12_p3 -221
+ts_i20_i19 -181
+ts_i20_i22 -295
+ ts_i20_p1 -226
+ ts_i20_p5 -236
+       i22 -473
+ ts_i19_p1 -223
