@@ -162,7 +162,7 @@ For this code, information must be stored as follows: the energies in `PES.dat`,
 
 Here, the code makes a distinction between intermediates and products by setting rate constants of intermediate formation from products to zero, emulating low-pressure conditions. Any rate constant given the entries in `PES.dat` which is missing some piece of information (e.g. geometry) will have an `error` in its place.
 
-In a system like above with many different pathways, checking each rate is difficult. The matrix of rate constants output from the last step `rateConstantMatrix.dat`, where each cell (i,j) is the rate of forming molecule i from molecule j, can be visualized using the `visualizeRateConstantMatrix.sh` script as follows:
+In a system like above with many different pathways, checking each rate is difficult. The matrix of rate constants output from the last step `rateConstantMatrix.dat`, where each cell (i,j) of column i and row j, is the rate of forming molecule i from molecule j, can be visualized using the `visualizeRateConstantMatrix.sh` script as follows:
 
 ```bash
 ./visualizeRateConstantMatrix.sh rateConstantMatrix.dat rateConstantMatrix.png "RRKM Rate Constants Calculated Assuming 20.3 kJ/mol Total Energy"
@@ -226,3 +226,5 @@ The product branching ratio starting from the presence of only one intermediate 
 
 </p>
 </details>
+
+Each cell (i,j) of the output is the product branching ratio of molecule i starting from only molecule j. As such, all columns corresponding to intermediates have zeroes as entries. For the C<sub>5</sub>H<sub>5</sub> system, given the nine products, only the last nine columns are useful. For example, the product branching ratio starting from intermediate i2 is 6.4% p3, 6.9% p6, and 86.6% p9 or about a 1:1:12 ratio.
