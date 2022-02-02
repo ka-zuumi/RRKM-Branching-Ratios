@@ -41,8 +41,7 @@ j=23
 # calculates moments of inertia
 
 gfortran rrkm.f -o rrkm.o
-gfortran -c ls_rmsd_original_v.f90
-gfortran ls_rmsd_original_v.o calculateMomentOfInertiaFromXYZ.f90 -o calculateMomentOfInertiaFromXYZ.o -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm
+gfortran calculateMomentOfInertiaFromXYZ.f90 -o calculateMomentOfInertiaFromXYZ.o -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm
 
 ################################################################################################
 
