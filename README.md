@@ -1,5 +1,5 @@
 # RRKM Branching Ratios
-Code and guide towards predicting branching ratios of reactions using RRKM theory.
+Code and guide towards predicting branching ratios of reactions using RRKM theory. All steps require fortran. The rate constant matrix calculation requires the LAPACK standard software library for fortran. The visualization step requires gnuplot.
 
 ### Calculating Rate Constants of Elementary Reactions with RRKM Theory
 
