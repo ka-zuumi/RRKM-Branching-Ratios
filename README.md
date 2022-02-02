@@ -162,8 +162,12 @@ For this code, information must be stored as follows: the energies in `PES.dat`,
 
 Here, the code makes a distinction between intermediates and products by setting rate constants of intermediate formation from products to zero, emulating low-pressure conditions.
 
-In a system like above with many different pathways, checking each rate is difficult. The matrix of rate constants output, where each cell (i,j) is the rate of forming molecule i from molecule j, can be visualized as follows:
+In a system like above with many different pathways, checking each rate is difficult. The matrix of rate constants output from the last step `rateConstantMatrix.dat`, where each cell (i,j) is the rate of forming molecule i from molecule j, can be visualized using the `visualizeRateConstantMatrix.sh` script as follows:
 
 ```bash
 ./visualizeRateConstantMatrix.sh rateConstantMatrix.dat rateConstantMatrix.png "RRKM Rate Constants Calculated Assuming 20.3 kJ/mol Total Energy"
 ```
+
+<p align="center">
+  <img src="rateConstantMatrix.png" width=90% height=90% >
+</p>
