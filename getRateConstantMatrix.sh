@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Example usage:
 # ./getRateConstantMatrix.sh > rateConstantMatrix.dat
@@ -39,9 +39,11 @@ j=23
 
 # Compile the heavy-lifting RRKM script and the script that
 # calculates moments of inertia
+# Check here to make sure your fortran version can access
+# LAPACK and BLAS and change compilation as necessary
 
 gfortran rrkm.f -o rrkm.o
-gfortran calculateMomentOfInertiaFromXYZ.f90 -o calculateMomentOfInertiaFromXYZ.o -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm
+gfortran calculateMomentOfInertiaFromXYZ.f90 -o calculateMomentOfInertiaFromXYZ.o -llapack -lblas
 
 ################################################################################################
 
