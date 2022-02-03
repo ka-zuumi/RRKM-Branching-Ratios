@@ -9,7 +9,7 @@ tmpfile1=tmp1
 tmpfile2=tmp2
 
 # For visualizing the energy
-energyfile=$HOME/rsun_lts/kazuumi/C5H5/PES-mebel.dat # This has ZPE included
+energyfile=C5H5/PES.dat # This has ZPE included
 
 ############################################################################
 
