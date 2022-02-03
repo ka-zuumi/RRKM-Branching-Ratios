@@ -42,7 +42,7 @@ j=23
 # Check here to make sure your fortran version can access
 # LAPACK and BLAS and change compilation as necessary
 
-gfortran rrkm.f -o rrkm.o
+gfortran -std=legacy rrkm.f -o rrkm.o
 gfortran calculateMomentOfInertiaFromXYZ.f90 -o calculateMomentOfInertiaFromXYZ.o -llapack -lblas
 
 ################################################################################################
