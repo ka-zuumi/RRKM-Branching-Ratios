@@ -12,7 +12,7 @@ rrkminputfile=input.rrkm
 
 # Compile the heavy-lifting RRKM script
 
-gfortran rrkm.f -o rrkm.o
+gfortran -std=legacy rrkm.f -o rrkm.o
 
 ################################################################################################
 
