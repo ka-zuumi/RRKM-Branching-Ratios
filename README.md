@@ -231,6 +231,6 @@ Each cell (i,j) of the output is the product branching ratio of molecule i start
 
 # Acknowledgements
 
-Scripts are structured around the fortran script by the Hase group![^1]
+Scripts are structured around the fortran code by the Hase group![^1]
 
 [^1]: Zhu, Ling, Wei Chen, William L. Hase, and E. W. Kaiser. "Comparison of models for treating angular momentum in RRKM calculations with vibrator transition states: Pressure and temperature dependence of chlorine atom+ acetylene association." The Journal of Physical Chemistry 97, no. 2 (1993): 311-322.
